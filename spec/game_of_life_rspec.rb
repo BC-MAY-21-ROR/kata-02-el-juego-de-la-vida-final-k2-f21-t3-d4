@@ -1,7 +1,7 @@
 require 'rspec'
 require 'matrix'
-require_relative '../app/Cell.rb'
-require_relative '../app/Grid.rb'
+require_relative '../app/cell.rb'
+require_relative '../app/grid.rb'
 dead_cell=Cell.new(0)
 matrix=Grid.new(2,2,Matrix[[dead_cell,Cell.new(1)],[Cell.new(1),Cell.new(1)]])
 matrix.analize_cells
